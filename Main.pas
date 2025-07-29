@@ -1,4 +1,4 @@
-unit Unit1;
+unit Main;
 
 interface
 
@@ -20,5 +20,20 @@ var
 implementation
 
 {$R *.dfm}
+
+uses RPG;
+
+procedure TForm1.Button1Click(Sender:TObject);
+
+var personagem:Tpersonagem;
+
+begin
+
+  personagem:=Tpersonagem.Create(0,0);
+  personagem.setDano(0);
+
+end;
+
+
 
 end.

@@ -1,9 +1,9 @@
-program Project1;
+program RPG;
 
 uses
   Vcl.Forms,
-  Unit1 in 'Unit1.pas' {Form1},
-  Unit2 in 'Unit2.pas';
+  Main in 'Main.pas' {Form1},
+  Classes in 'Classes.pas';
 
 {$R *.res}
 
